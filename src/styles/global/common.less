@@ -1,0 +1,78 @@
+html, body {
+  width: 100%; /* Устанавливает ширину для html и body на 100% */
+  margin: 0; /* Убирает внешние отступы по умолчанию */
+  padding: 0; /* Убирает внутренние отступы по умолчанию */
+}
+
+.body {
+  box-sizing: border-box; /* Учитывает отступы и границы в общей ширине и высоте элемента */
+  display: flex; /* Использует Flexbox для размещения дочерних элементов */
+  flex-direction: column; /* Располагает дочерние элементы в колонку */
+  min-height: 100vh; /* Минимальная высота равна 100% высоты окна браузера */
+  background-color: @gray;
+  background-image: url(../../assets/images/noise.png), url(../../assets/images/bg.png);
+  background-position: 0 0, 0 0;
+  background-size: auto, 100% auto;
+  background-repeat: repeat, repeat-y;
+  color: @black; /* цвет текста */
+  font-family: @font1; /* Шрифт и запасной шрифт */
+  font-size: 16px; /* Размер шрифта */
+  font-weight: 400; /* Нормальная жирность шрифта */
+  font-style: normal; /* Обычный стиль шрифта */
+  line-height: 1.375; /* Высота строки */
+  overflow-x: hidden;
+  padding-top: 147px; /* Отступ сверху, чтобы учесть фиксированный заголовок */
+
+  @media @bw1660 {
+    padding-top: 111px;
+  }
+  @media @bw768 {
+    padding-top: 70px;
+  }
+
+}
+
+.main {
+  margin-right: auto; /* Центрирование элемента справа */
+  margin-left: auto; /* Центрирование элемента слева */
+  max-width: 1920px; /* Максимальная ширина 1920 пикселей */
+}
+
+.page-footer {
+  flex: 0 0 auto;
+}
+
+a {
+  color: @black; /* Устанавливает цвет текста для ссылок */
+  outline: none; /* Убирает контур вокруг ссылки при фокусировке */
+  text-decoration: none;
+}
+
+.img {
+  max-width: 100%; // это свойство гарантирует, что элемент не выйдет за пределы своего родительского контейнера
+  height: auto;
+  object-fit: cover; // это свойство позволяет изображению заполнять контейнер, обрезая его при необходимости
+}
+
+input,
+textarea,
+select {
+  box-shadow: none; /* Убирает тень у элементов ввода */
+  outline: none;    /* Убирает обводку при фокусе */
+  color: @black;    /* Устанавливает цвет текста на черный */
+  font-family: @font1; /* Устанавливает шрифт для элементов */
+}
+textarea {
+  resize: none; /* Запрещает изменение размера текстовой области */
+}
+
+ul {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+li {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+
