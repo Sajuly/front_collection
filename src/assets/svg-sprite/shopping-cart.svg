@@ -1,0 +1,16 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip37_5205">
+			<rect id="shopping-cart 2" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="shopping-cart 2" rx="0.000000" width="23.000000" height="23.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip37_5205)">
+		<path id="Vector" d="M7.75 7.75L19.25 7.75L17.61 14.7C17.4 15.61 16.59 16.25 15.66 16.25L11.53 16.25C10.63 16.25 9.83 15.63 9.6 14.76L7.75 7.75L7 4.75L4.75 4.75" stroke="#111111" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="Vector" d="M11 19C11 19.55 10.55 20 10 20C9.44 20 9 19.55 9 19C9 18.44 9.44 18 10 18C10.55 18 11 18.44 11 19Z" fill="#111111" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M18 19C18 19.55 17.55 20 17 20C16.44 20 16 19.55 16 19C16 18.44 16.44 18 17 18C17.55 18 18 18.44 18 19Z" fill="#111111" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>
